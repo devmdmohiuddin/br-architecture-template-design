@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%; 
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+section{
+    padding-bottom: 7rem;
+    margin: 0 2.5rem;
+}
+h3{
+    font-size: 2.5rem;
+    color: #424542;
+    font-weight: normal;
+}
+/*********************
+    Header Section
+**********************/
+
+.header-section{
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar{
+    margin: 2rem 2rem;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+.navbar ul li{
+    float: left;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #393939;
+    letter-spacing: .3rem;
+    padding: 1rem 2rem;
+}
+.navbar a:hover{
+    background: #CCCCCC;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #393939;
+    letter-spacing: .3rem;
+    padding: 1rem 2rem;
+}
+.navbar ul li a:hover{
+    background: #CCCCCC;
+}
+
+/*********************
+    Banner Section
+**********************/
+.banner-section{
+    margin: 0;
+    width: 100%;
+}
+.architect{
+    position: relative;
+}
+.architect img{
+    width: 100%;
+}
+.architect h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: .4rem;
+}
+.architect h2 span{
+    background: rgba(42, 43, 45, 0.9);
+    padding: 1rem 1.6rem;
+    font-weight: bold;
+}
+
+/*********************
+    Project Section
+**********************/
+.project-section h3{
+    border-bottom: .1rem solid #f1f1f1;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.project-section img{
+    width: 100%;
+}
+.project-section .col{
+    position: relative;
+}
+.project-section h4{
+    background: #000000;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: normal;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+/*********************
+    About Section
+**********************/
+.about-section p{
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: normal;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.about-section h3{
+    border-bottom: .1rem solid #f1f1f1;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.about-section img{
+    width: 100%;
+}
+.about-section h4{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    color: #474747;
+    font-weight: normal;
+    margin-bottom: 1.8rem;
+}
+.about-section h5{
+    color: #474747;
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-bottom: 1.8rem;
+}
+.about-section button{
+    display: block;
+    border: none;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    color: #262626;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    background: #F1F1F1;
+}
+.about-section button:hover{
+    background: #CCCCCC;
+    cursor: pointer;
+}
+
+/*********************
+    Contact Section
+**********************/
+.contact-section{
+    padding-bottom: 0;
+}
+.contact-section h3{
+    border-bottom: .1rem solid #f1f1f1;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.contact-section p{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    border: .1rem solid #CCCCCC;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    border: .1rem solid #CCCCCC;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    padding: 1rem 0 0 1rem;
+}
+.contact-section button{
+    background: #000;
+    font-size: 1.6rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    margin-bottom: 4rem;
+}
+.contact-section img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/*********************
+    Contact Section
+**********************/
+.footer-section{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 5rem 0;
+    letter-spacing: .2rem;
+}
+
+
+

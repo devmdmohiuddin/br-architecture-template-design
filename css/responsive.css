@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 576px){
+    html{
+        font-size: 60%;
+    }
+    ul{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .architect h2{
+        font-size: 3rem;
+        padding: .5rem 1rem;
+        width: 100%;
+        text-align: center;
+    }
+}
