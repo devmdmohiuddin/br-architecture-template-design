@@ -4,7 +4,7 @@
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/devmdmohiuddin/br-architecture-template-design)
 ![GitHub all releases](https://img.shields.io/github/downloads/devmdmohiuddin/br-architecture-template-design/total)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/devmdmohiuddin/br-architecture-template-design)
-![GitHub](https://img.shields.io/github/license/devmdmohiuddin/scroll-indicator)
+![GitHub](https://img.shields.io/github/license/devmdmohiuddin/br-architecture-template-design)
 
 # BR Architecture Template Design
 
